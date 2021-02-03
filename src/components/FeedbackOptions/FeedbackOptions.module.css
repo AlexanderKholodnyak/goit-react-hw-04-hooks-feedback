@@ -5,14 +5,15 @@
   font-weight: 700;
   border-radius: 5px;
   border: 1px solid gray;
-  background-color: white;
+  background-color: rgb(67, 238, 24);
   outline: none;
   color: black;
 }
 
-.button:first-child {
-  background-color: lightgreen;
+.button:nth-last-child(2) {
+  background-color: white;
 }
+
 .button:last-child {
   background-color: magenta;
 }
